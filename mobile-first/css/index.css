@@ -119,12 +119,13 @@ nav { width: 100%; }
 
 nav ul {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   border-top: 1px solid #9f9f9f;
 }
 
 nav li {
-  padding: 0 30px;
+  padding: 0 14px;
   line-height: 3.75em;
   border-bottom: 1px solid #9f9f9f;
 }
@@ -346,4 +347,10 @@ footer a { color: #333; }
     max-width: 955px;
     margin: 0 auto;
   }
+
+  nav ul { justify-content: flex-start; }
+
+  nav li { padding: 0 30px; }
+
+  nav li:first-child { padding-left: 0; }
 }
