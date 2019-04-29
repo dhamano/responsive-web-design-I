@@ -238,6 +238,8 @@ footer a { color: #333; }
 
     nav ul { margin-right: 0; }
 
+    nav li { padding: 0 20px; }
+
     .hero img { display: none; }
 
     .hero h1 { margin-bottom: 30px; }
