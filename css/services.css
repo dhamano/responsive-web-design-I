@@ -161,6 +161,8 @@ main  section {
   font-size: 2em;
 }
 
+.services-header img { width: 100%; }
+
 p {
   line-height: 1.25em;
 }
