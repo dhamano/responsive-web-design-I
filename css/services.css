@@ -251,6 +251,8 @@ footer a { color: #333; }
         height: auto;
         padding-top: 20px;
     }
+    
+    nav li { padding: 0 20px; }
 
     header .logo { margin: 10px 0 20px 0; }
 
